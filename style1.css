@@ -1,0 +1,40 @@
+* {
+  font-family: arial;
+  font-size: 32px;
+  outline: none;
+}
+
+#finalAnswer {
+  background-color: black;
+  color: yellow;
+  position: fixed;
+  top: 200px;
+  left: 200px;
+  opacity: .2;
+}
+
+#finalAnswer:hover {
+  transition: 1s;
+  opacity: 10;
+  cursor: pointer;
+}
+
+#mainBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: : auto;
+  z-index: 0;
+
+}
+
+#revealButton {
+  z-index: 5;
+  position: fixed;
+  top: 100px;
+  left: 100px;
+  background-color: black;
+  color: red;
+  cursor: pointer;
+}
